@@ -16,7 +16,7 @@
         <mxCell id="cSwRSX2lohy5z_f_VE7h-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="《bank system》" vertex="1">
           <mxGeometry height="30" width="100" x="380" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="cSwRSX2lohy5z_f_VE7h-9" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="cSwRSX2lohy5z_f_VE7h-8">
+        <mxCell id="cSwRSX2lohy5z_f_VE7h-9" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;" target="cSwRSX2lohy5z_f_VE7h-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSwRSX2lohy5z_f_VE7h-17" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="cSwRSX2lohy5z_f_VE7h-1">
@@ -27,13 +27,13 @@
         <mxCell id="cSwRSX2lohy5z_f_VE7h-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Withdrawal&lt;br&gt;Funks" vertex="1">
           <mxGeometry height="80" width="120" x="270" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="cSwRSX2lohy5z_f_VE7h-13" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="cSwRSX2lohy5z_f_VE7h-8">
+        <mxCell id="cSwRSX2lohy5z_f_VE7h-13" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;" target="cSwRSX2lohy5z_f_VE7h-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSwRSX2lohy5z_f_VE7h-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Check Account" vertex="1">
           <mxGeometry height="80" width="120" x="270" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="cSwRSX2lohy5z_f_VE7h-15" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;">
+        <mxCell id="cSwRSX2lohy5z_f_VE7h-15" edge="1" parent="1" source="cSwRSX2lohy5z_f_VE7h-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="300" as="targetPoint" />
           </mxGeometry>
