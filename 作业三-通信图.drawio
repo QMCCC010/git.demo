@@ -88,7 +88,7 @@
             <mxPoint x="370" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-UTidUUiqGya03k49UKU-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;A1.6a.2, A1.6b.2, A2.6:&lt;/div&gt;&lt;div&gt;Customer Output&lt;/div&gt;" vertex="1">
+        <mxCell id="-UTidUUiqGya03k49UKU-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;A1.6a.2, A1.6b.2, A2.6, A3.10, A4.6:&lt;/div&gt;&lt;div&gt;Customer Output&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="220" x="30" y="100" as="geometry" />
         </mxCell>
         <mxCell id="-UTidUUiqGya03k49UKU-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -112,7 +112,7 @@
             <mxPoint x="750" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-UTidUUiqGya03k49UKU-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《entity》&lt;/div&gt;&lt;div&gt;:Slot&lt;/div&gt;" vertex="1">
+        <mxCell id="-UTidUUiqGya03k49UKU-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《entity》&lt;/div&gt;&lt;div&gt;:TimeSlot&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="837" y="360" as="geometry" />
         </mxCell>
         <mxCell id="-UTidUUiqGya03k49UKU-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=20;" value="A2.3: Query Slots" vertex="1">
@@ -187,11 +187,20 @@
         <mxCell id="-UTidUUiqGya03k49UKU-49" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="-UTidUUiqGya03k49UKU-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-75" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-UTidUUiqGya03k49UKU-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-78" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="-UTidUUiqGya03k49UKU-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-83" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="-UTidUUiqGya03k49UKU-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-UTidUUiqGya03k49UKU-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《coordinator》&lt;/div&gt;&lt;div&gt;:Reservation Handler&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="320" y="310" as="geometry" />
         </mxCell>
         <mxCell id="-UTidUUiqGya03k49UKU-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.1: Reserve Request" vertex="1">
-          <mxGeometry height="30" width="130" x="349" y="220" as="geometry" />
+          <mxGeometry height="30" width="130" x="340" y="220" as="geometry" />
         </mxCell>
         <mxCell id="-UTidUUiqGya03k49UKU-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -235,8 +244,107 @@
             <mxPoint x="490" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-UTidUUiqGya03k49UKU-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A3.5" vertex="1">
-          <mxGeometry height="30" width="60" x="-50" y="460" as="geometry" />
+        <mxCell id="-UTidUUiqGya03k49UKU-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.5a.1: [Vacant] OK" vertex="1">
+          <mxGeometry height="30" width="120" x="294" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.5b.1: [Conflict] Reject" vertex="1">
+          <mxGeometry height="30" width="240" x="220" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="370" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.5b.2: View Conflict Details" vertex="1">
+          <mxGeometry height="30" width="210" x="235" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369" y="245" as="sourcePoint" />
+            <mxPoint x="369" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-67" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="-UTidUUiqGya03k49UKU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《business logic》&lt;/div&gt;&lt;div&gt;:FeeCalculator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.6: Calculate Fee" vertex="1">
+          <mxGeometry height="30" width="170" x="250" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-66" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314.5" y="620" as="sourcePoint" />
+            <mxPoint x="314.5" y="659.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A3.7: Query Slot Price" vertex="1">
+          <mxGeometry height="30" width="160" x="550" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-69" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="720" as="sourcePoint" />
+            <mxPoint x="650" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A3.8: Fee Result" vertex="1">
+          <mxGeometry height="30" width="190" x="166" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="640" as="sourcePoint" />
+            <mxPoint x="290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A2.9: Display Order" vertex="1">
+          <mxGeometry height="30" width="170" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A4: Confirm Reservation" vertex="1">
+          <mxGeometry height="30" width="135" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A4.1: Confirm Order" vertex="1">
+          <mxGeometry height="30" width="120" x="365" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《entity》&lt;/div&gt;&lt;div&gt;:Reservation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=15;" value="A4.2 Create Reservation" vertex="1">
+          <mxGeometry height="30" width="140" x="120" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-81" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-79" style="endArrow=classic;html=1;rounded=0;exitX=0.699;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="205" y="310" as="sourcePoint" />
+            <mxPoint x="165" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A4.3 Reserve Slots" vertex="1">
+          <mxGeometry height="30" width="150" x="450" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-85" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="434.5" as="sourcePoint" />
+            <mxPoint x="540" y="434.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《entity》&lt;/div&gt;&lt;div&gt;:Order&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-40" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-87" edge="1" parent="1" source="-UTidUUiqGya03k49UKU-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.994;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="-UTidUUiqGya03k49UKU-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-20;" value="A4.4 Create Order" vertex="1">
+          <mxGeometry height="30" width="140" x="120" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-89" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="206" y="400" as="sourcePoint" />
+            <mxPoint x="166" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UTidUUiqGya03k49UKU-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="A4.5: Redirect to Payment" vertex="1">
+          <mxGeometry height="30" width="210" x="190" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
