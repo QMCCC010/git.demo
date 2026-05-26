@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="jNuhYELWt-TByJmkQIZR">
+    <mxGraphModel dx="1201" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="imoUNIGA6sBYf80yNGVt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="480" width="360" x="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;《software system》&lt;/div&gt;&lt;div&gt;Emergency Monitoring System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="345" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《external user》&lt;/div&gt;&lt;div&gt;Monitoring Operator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-7" edge="1" parent="1" source="imoUNIGA6sBYf80yNGVt-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="imoUNIGA6sBYf80yNGVt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《user interaction》&lt;/div&gt;&lt;div&gt;OperatorInterface&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Interacts With" vertex="1">
+          <mxGeometry height="30" width="80" x="190" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《external system》&lt;/div&gt;&lt;div&gt;Remote System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-14" edge="1" parent="1" source="imoUNIGA6sBYf80yNGVt-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="imoUNIGA6sBYf80yNGVt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《proxy》&lt;/div&gt;&lt;div&gt;RemoteSystemProxy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Communicates With" vertex="1">
+          <mxGeometry height="30" width="110" x="170" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="205" y="370" as="sourcePoint" />
+            <mxPoint x="245" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-21" edge="1" parent="1" source="imoUNIGA6sBYf80yNGVt-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="imoUNIGA6sBYf80yNGVt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《input》&lt;/div&gt;&lt;div&gt;RemoteSensorComponent&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《external input device》&lt;/div&gt;&lt;div&gt;Monitoring Sensor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="inputs into" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="205" y="520" as="sourcePoint" />
+            <mxPoint x="235" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《service》&lt;/div&gt;&lt;div&gt;AlarmService&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="imoUNIGA6sBYf80yNGVt-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;《service》&lt;/div&gt;&lt;div&gt;MonitoringDataService&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="440" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
